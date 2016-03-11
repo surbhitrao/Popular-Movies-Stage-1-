@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/grid_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+
+        android:padding="10dp"
+        android:textColor="#fff"
+            android:background="#07000000"
+        android:textSize="20dp"
+        android:theme="@style/Base.V23.Theme.AppCompat.Light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="361dp"
+        android:text="New Text"
+        android:id="@+id/overview"
+        android:layout_gravity="center"
+        android:background="#07000000"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="209dp"
+        android:layout_height="56dp"
+        android:text="New Text"
+        android:id="@+id/votes"
+        android:layout_gravity="left|bottom"
+        android:background="#07000000"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_marginEnd="-20dp"
+        android:layout_marginRight="-20dp"
+        />
+
+    <TextView
+        android:layout_width="165dp"
+        android:layout_height="61dp"
+        android:text="New Text"
+        android:id="@+id/dates"
+        android:layout_gravity="right|bottom"
+        android:background="#07000000"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginEnd="-30dp"
+        android:layout_marginRight="-30dp"
+        />
+
+</FrameLayout>
