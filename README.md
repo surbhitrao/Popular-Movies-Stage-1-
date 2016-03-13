@@ -1,6 +1,6 @@
 # Popular-Movies-Stage-1-
-This repo contains code for my project for Udacity's Android Nanodegree Program 
-Presents the user with a grid arrangement of movie posters upon launch.
+This repo contains code for my project for Udacity's Android Nanodegree Program.
+It Presents the user with a grid arrangement of movie posters upon launch.
 Allow your user to change sort order via a setting:
 The sort order can be by most popular or by highest-rated
 Allow the user to tap on a movie poster and transition to a details screen with additional information such as:
